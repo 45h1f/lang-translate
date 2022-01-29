@@ -1,9 +1,9 @@
 {
     "name": "ashiful/lang-translate",
-    "description": "Easy way to generate crud",
+    "description": "lang translate",
     "keywords": [
         "ashiful",
-        "crud"
+        "lang-translate"
     ],
     "homepage": "https://github.com/ashif007/lang-translate",
     "license": "MIT",
