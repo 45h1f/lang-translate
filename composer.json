@@ -1,0 +1,41 @@
+{
+    "name": "ashiful/lang-translate",
+    "description": "Easy way to generate crud",
+    "keywords": [
+        "ashiful",
+        "crud"
+    ],
+    "homepage": "https://github.com/ashif007/lang-translate",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ashiful Islam",
+            "email": "ashiful134@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0",
+        "laravel/framework": "^5.5|^6.0|^7.0|^8.0",
+        "laravelcollective/html": "^5.4|^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ashiful\\Crud\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ashiful\\LangTranslate\\LangTranslateServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
